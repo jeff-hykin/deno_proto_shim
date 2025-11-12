@@ -1,6 +1,6 @@
 # What is this?
 
-You might run into a problem where old code tries to use `__proto__`, which is deleted (as it should be) on Deno and newer runtimes. This is a shim to make make that code work.
+You might run into a problem where old JS code tries to use `.__proto__`, which is doesn't (and shouldn't) exist on Deno and newer runtimes. This is a shim to make make that old code work.
 
 # How do I use it?
 
